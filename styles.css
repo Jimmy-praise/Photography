@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.header {
+    display: flex;
+    margin: 40px 100px;
+    color: gray;
+}
+.logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+}
+.navbar {
+    margin-left: auto;
+}
+.navbar ul {
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar ul li a:link {
+    color: grey;
+    text-decoration: none;
+}
