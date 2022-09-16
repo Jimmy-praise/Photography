@@ -74,12 +74,12 @@ h1 {
 .project-grid {
     display: flex;
     margin-top: 30px;
-}
-.project-grid div {
-    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .project-grid div img {
-    width: 300px;
+    width: 310px;
     height: 350px;
 }
 .project-grid div h3{
@@ -95,6 +95,7 @@ h1 {
 .blog-heading {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .button {
     margin-left: auto;
@@ -113,9 +114,14 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 25px;
 }
 .blog-item img {
     width: 350px;
     height: 250px;
+    margin-bottom: 20px;
+}
+.blog-item h2 {
+    margin-bottom: 10px;
 }
