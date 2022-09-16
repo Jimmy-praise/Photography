@@ -125,3 +125,26 @@ h1 {
 .blog-item h2 {
     margin-bottom: 10px;
 }
+.media {
+    background: white;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.media a {
+    color: white;
+}
+.media i:hover {
+    background: burlywood;
+}
+.media i:active {
+    background: black;
+}
+i {
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+    margin: 5px;
+    background: lightgreen;
+} 
