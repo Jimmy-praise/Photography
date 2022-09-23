@@ -125,28 +125,29 @@ h1 {
 .blog-item h2 {
     margin-bottom: 10px;
 }
-.media {
+.contact .media-icons {
     background: white;
     height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.media a {
+.contact .media-icons a {
     color: white;
 }
-.media i:hover {
+.contact .media-icons i:hover {
     background: burlywood;
 }
-.media i:active {
+.contact .media-icons i:active {
     background: black;
 }
-i {
+.contact .media-icons i {
     font-size: 2em;
     text-align: center;
     padding: 1em;
     margin: 5px;
     background: lightgreen;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 } 
 .footer {
     padding: 10vh;
