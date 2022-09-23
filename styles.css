@@ -148,3 +148,10 @@ i {
     margin: 5px;
     background: lightgreen;
 } 
+.footer {
+    padding: 10vh;
+}
+.footer p {
+    color: lightgray;
+    text-align: center;
+}
